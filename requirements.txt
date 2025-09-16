@@ -1,7 +1,7 @@
-gradio==4.11.1
-transformers==4.34.0
-torch>=1.13.0
-scikit-learn==1.2.2
-joblib==1.2.0
-soundfile==0.12.1
-numpy==1.25.0
+gradio
+transformers
+torch
+scikit-learn
+joblib
+soundfile
+numpy
