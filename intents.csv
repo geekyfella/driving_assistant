@@ -1,0 +1,8 @@
+Turn on navigation to home,NAVIGATE
+Take me to my office,NAVIGATE
+Call Mom,CALL_CONTACT
+Call Ravi,CALL_CONTACT
+Play next song,PLAY_MUSIC
+Play radio,PLAY_MUSIC
+Stop music,STOP
+What's the ETA to downtown,NAVIGATE_QUERY
