@@ -1,8 +1,185 @@
-Turn on navigation to home,NAVIGATE
-Take me to my office,NAVIGATE
-Call Mom,CALL_CONTACT
-Call Ravi,CALL_CONTACT
-Play next song,PLAY_MUSIC
-Play radio,PLAY_MUSIC
-Stop music,STOP
-What's the ETA to downtown,NAVIGATE_QUERY
+utterance,intent,slots
+Drive to college via,NAVIGATE,"{""destination"": ""college""}"
+establish fuel level,VEHICLE_STATUS,
+What's the Basque Fatherland and Liberty to college?,NAVIGATE_QUERY,"{""destination"": ""college""}"
+Drive to school via avoid tolls,NAVIGATE,"{""destination"": ""school""}"
+My engine is piss a knocking sound,REPORT_FAULT,
+Play the play list Road Trip Playlist,PLAY_MUSIC,
+turn back music,STOP,
+Show fuel level,VEHICLE_STATUS,
+What's the Tyre insistency?,VEHICLE_STATUS,
+Navigate to downtown,NAVIGATE,"{""destination"": ""downtown""}"
+road to home avoid price,NAVIGATE,"{""destination"": ""home""}"
+What's the tyre insistence?,VEHICLE_STATUS,
+recreate some music,PLAY_MUSIC,
+What'siemens the ETA to airdrome?,NAVIGATE_QUERY,"{""destination"": ""airport""}"
+flummox focus to college,NAVIGATE,"{""destination"": ""college""}"
+Play the playlist pall Vibes,PLAY_MUSIC,
+Drive to home via fastest route,NAVIGATE,"{""destination"": ""home""}"
+Drive to station via avoid tolls,NAVIGATE,"{""destination"": ""station""}"
+Get directions to market,NAVIGATE,"{""destination"": ""market""}"
+take on Chill Vibes,PLAY_MUSIC,
+Phone michael,CALL_CONTACT,"{""contact"": ""michael""}"
+Stop,STOP,
+Phone dad,CALL_CONTACT,"{""contact"": ""dad""}"
+path to college avoiding tolls,NAVIGATE,"{""destination"": ""college""}"
+Distance to airport?,NAVIGATE_QUERY,"{""destination"": ""airport""}"
+Stop sailing,STOP,
+How long volition it take to pass on airport?,NAVIGATE_QUERY,"{""destination"": ""airport""}"
+tab engine lighter is on,REPORT_FAULT,
+Call anita,CALL_CONTACT,"{""contact"": ""anita""}"
+Distance to educate?,NAVIGATE_QUERY,"{""destination"": ""school""}"
+Take me to market,NAVIGATE,"{""destination"": ""market""}"
+Get directions to station,NAVIGATE,"{""destination"": ""station""}"
+My engine is making a knock sound,REPORT_FAULT,
+period of play the playlist thrill Vibes,PLAY_MUSIC,
+Route to airport avoiding tolls,NAVIGATE,"{""destination"": ""airport""}"
+Phone plunk for,CALL_CONTACT,"{""contact"": ""support""}"
+Call mama,CALL_CONTACT,"{""contact"": ""mom""}"
+Route to commercialise head off toll,NAVIGATE,"{""destination"": ""market""}"
+How long leave it take to touch civilise?,NAVIGATE_QUERY,"{""destination"": ""school""}"
+How long leave it take to reach airport?,NAVIGATE_QUERY,"{""destination"": ""airport""}"
+What time exist information technology?,NONE,
+Navigate to airport,NAVIGATE,"{""destination"": ""airport""}"
+Drive to downtown via scenic route,NAVIGATE,"{""destination"": ""downtown""}"
+Route to civilise deflect cost,NAVIGATE,"{""destination"": ""school""}"
+swordplay the playlist Road trip out Playlist,PLAY_MUSIC,
+Phone mom,CALL_CONTACT,"{""contact"": ""mom""}"
+Stop piloting,STOP,
+Take me to downtown,NAVIGATE,"{""destination"": ""downtown""}"
+Distance to school?,NAVIGATE_QUERY,"{""destination"": ""school""}"
+Take me to home,NAVIGATE,"{""destination"": ""home""}"
+Check battery status,VEHICLE_STATUS,
+Stop navigation,STOP,
+My engine is hit antiophthalmic factor knocking sound,REPORT_FAULT,
+I similar the color of this car,NONE,
+Play the playlist Top Hits,PLAY_MUSIC,
+Route to home avoiding tolls,NAVIGATE,"{""destination"": ""home""}"
+Play pall Vibes,PLAY_MUSIC,
+Play Road Trip Playlist,PLAY_MUSIC,
+Distance to downtown?,NAVIGATE_QUERY,"{""destination"": ""downtown""}"
+What time is it?,NONE,
+Check engine fire up follow on,REPORT_FAULT,
+Check locomotive engine light is on,REPORT_FAULT,
+one like the color of this automobile,NONE,
+I like the color of this car,NONE,
+Call mom,CALL_CONTACT,"{""contact"": ""mom""}"
+Make a scream to anita,CALL_CONTACT,"{""contact"": ""anita""}"
+Phone anita,CALL_CONTACT,"{""contact"": ""anita""}"
+Route to office avoiding tolls,NAVIGATE,"{""destination"": ""office""}"
+There is a foreign noise when idling,REPORT_FAULT,
+Get directions to downtown,NAVIGATE,"{""destination"": ""downtown""}"
+headphone mum,CALL_CONTACT,"{""contact"": ""mom""}"
+Route to downtown avoiding tolls,NAVIGATE,"{""destination"": ""downtown""}"
+What's the tyre pressure?,VEHICLE_STATUS,
+Navigate to market,NAVIGATE,"{""destination"": ""market""}"
+How retentive testament it take to reach national?,NAVIGATE_QUERY,"{""destination"": ""home""}"
+Play some music,PLAY_MUSIC,
+Navigate to station,NAVIGATE,"{""destination"": ""station""}"
+Drive to airport via fastest route,NAVIGATE,"{""destination"": ""airport""}"
+Cancel,STOP,
+How long will it take to reach airport?,NAVIGATE_QUERY,"{""destination"": ""airport""}"
+crusade to college via fastest road,NAVIGATE,"{""destination"": ""college""}"
+Call michael,CALL_CONTACT,"{""contact"": ""michael""}"
+Play thrill Vibes,PLAY_MUSIC,
+Drive to office via scenic route,NAVIGATE,"{""destination"": ""office""}"
+Make a call to anita,CALL_CONTACT,"{""contact"": ""anita""}"
+What's the Sur pressure?,VEHICLE_STATUS,
+Distance to home?,NAVIGATE_QUERY,"{""destination"": ""home""}"
+My engine is making a knocking sound,REPORT_FAULT,
+Play the playlist Road Trip Playlist,PLAY_MUSIC,
+catch pilotage,STOP,
+Take me to college,NAVIGATE,"{""destination"": ""college""}"
+How long will it take to reach station?,NAVIGATE_QUERY,"{""destination"": ""station""}"
+How long will it take to reach home?,NAVIGATE_QUERY,"{""destination"": ""home""}"
+Play Chill Vibes,PLAY_MUSIC,
+Next song,PLAY_MUSIC,
+How long will it take to reach college?,NAVIGATE_QUERY,"{""destination"": ""college""}"
+Play Top Hits,PLAY_MUSIC,
+locomotive temperature status,VEHICLE_STATUS,
+How long will it take to reach school?,NAVIGATE_QUERY,"{""destination"": ""school""}"
+Next Sung,PLAY_MUSIC,
+Stop medicine,STOP,
+Drive to office via avoid tolls,NAVIGATE,"{""destination"": ""office""}"
+Get directions to business district,NAVIGATE,"{""destination"": ""downtown""}"
+Drive to home via,NAVIGATE,"{""destination"": ""home""}"
+Make a call to support,CALL_CONTACT,"{""contact"": ""support""}"
+produce a call to anita,CALL_CONTACT,"{""contact"": ""anita""}"
+Navigate to business district,NAVIGATE,"{""destination"": ""downtown""}"
+What's the ETA to airport?,NAVIGATE_QUERY,"{""destination"": ""airport""}"
+Navigate to home,NAVIGATE,"{""destination"": ""home""}"
+Check engine light constitute on,REPORT_FAULT,
+Show fire level,VEHICLE_STATUS,
+What's the ETA to station?,NAVIGATE_QUERY,"{""destination"": ""station""}"
+Show fuel storey,VEHICLE_STATUS,
+I was at the market yesterday,NONE,
+What's the ETA to home?,NAVIGATE_QUERY,"{""destination"": ""home""}"
+Stop music,STOP,
+Make a song to anita,CALL_CONTACT,"{""contact"": ""anita""}"
+Distance to station?,NAVIGATE_QUERY,"{""destination"": ""station""}"
+What'randomness the ETA to send?,NAVIGATE_QUERY,"{""destination"": ""station""}"
+That's a squeamish birdsong,NONE,
+What's the ETA to school?,NAVIGATE_QUERY,"{""destination"": ""school""}"
+What's the ETA to schoolhouse?,NAVIGATE_QUERY,"{""destination"": ""school""}"
+Distance to college?,NAVIGATE_QUERY,"{""destination"": ""college""}"
+Play the playlist Chill Vibes,PLAY_MUSIC,
+Take Maine to aerodrome,NAVIGATE,"{""destination"": ""airport""}"
+have Pine Tree State to college,NAVIGATE,"{""destination"": ""college""}"
+How long will it take to reach downtown?,NAVIGATE_QUERY,"{""destination"": ""downtown""}"
+Route to station avoiding tolls,NAVIGATE,"{""destination"": ""station""}"
+Make a phone call to anita,CALL_CONTACT,"{""contact"": ""anita""}"
+Drive to station via scenic route,NAVIGATE,"{""destination"": ""station""}"
+swordplay the play list route turn on Playlist,PLAY_MUSIC,
+There is a strange noise when idling,REPORT_FAULT,
+Engine temperature status,VEHICLE_STATUS,
+Show fire pull down,VEHICLE_STATUS,
+How long will it take to reach market?,NAVIGATE_QUERY,"{""destination"": ""market""}"
+What time live IT?,NONE,
+guide me to downtown,NAVIGATE,"{""destination"": ""downtown""}"
+Check locomotive lightsome constitute on,REPORT_FAULT,
+That's a nice Song dynasty,NONE,
+gaming the playlist Chill vibraharp,PLAY_MUSIC,
+That's a overnice song,NONE,
+Play the playlist gelidity Vibes,PLAY_MUSIC,
+Make a call to living,CALL_CONTACT,"{""contact"": ""support""}"
+Navigate to school,NAVIGATE,"{""destination"": ""school""}"
+Play the play list Chill Vibes,PLAY_MUSIC,
+Check railway locomotive light exist on,REPORT_FAULT,
+set off,STOP,
+Navigate to office,NAVIGATE,"{""destination"": ""office""}"
+Phone ravi,CALL_CONTACT,"{""contact"": ""ravi""}"
+What's the ETA to office?,NAVIGATE_QUERY,"{""destination"": ""office""}"
+Check locomotive light be on,REPORT_FAULT,
+Make a call to michael,CALL_CONTACT,"{""contact"": ""michael""}"
+What's the ETA to college?,NAVIGATE_QUERY,"{""destination"": ""college""}"
+Drive to station via,NAVIGATE,"{""destination"": ""station""}"
+What sentence is it?,NONE,
+Route to market debar bell,NAVIGATE,"{""destination"": ""market""}"
+Navigate to college,NAVIGATE,"{""destination"": ""college""}"
+Check engine light is on,REPORT_FAULT,
+My engine live making a knocking level-headed,REPORT_FAULT,
+Distance to position?,NAVIGATE_QUERY,"{""destination"": ""office""}"
+Get directions to office,NAVIGATE,"{""destination"": ""office""}"
+My engine is seduce a knocking sound,REPORT_FAULT,
+I make up at the food market yesterday,NONE,
+Call support,CALL_CONTACT,"{""contact"": ""support""}"
+shout anita,CALL_CONTACT,"{""contact"": ""anita""}"
+I like the colorise of this car,NONE,
+Engine temperature position,VEHICLE_STATUS,
+pull in antiophthalmic factor call to michael,CALL_CONTACT,"{""contact"": ""michael""}"
+My engine constitute making a knocking auditory sensation,REPORT_FAULT,
+Make a call to mom,CALL_CONTACT,"{""contact"": ""mom""}"
+at that place is a strange noise when idling,REPORT_FAULT,
+Make a call to dad,CALL_CONTACT,"{""contact"": ""dad""}"
+My engine be making a knocking sound,REPORT_FAULT,
+break off,STOP,
+gambol Road jaunt Playlist,PLAY_MUSIC,
+That's a nice song,NONE,
+What's the Basque Homeland and Freedom to market?,NAVIGATE_QUERY,"{""destination"": ""market""}"
+Get directions to school,NAVIGATE,"{""destination"": ""school""}"
+Play the playlist cover Hits,PLAY_MUSIC,
+Distance to office?,NAVIGATE_QUERY,"{""destination"": ""office""}"
+Call dad,CALL_CONTACT,"{""contact"": ""dad""}"
+Call ravi,CALL_CONTACT,"{""contact"": ""ravi""}"
+What's the ETA to market?,NAVIGATE_QUERY,"{""destination"": ""market""}"
+turn back navigation,STOP,
