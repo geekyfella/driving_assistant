@@ -1,4 +1,3 @@
-# app_compat.py  (replace your app.py with this or copy the changes)
 import gradio as gr
 import joblib
 import os
@@ -118,31 +117,31 @@ def make_audio_component(label="Record (max 15s)"):
         except Exception as e:
             raise RuntimeError("Could not create an Audio component for this Gradio version. Consider upgrading gradio with `pip install -U gradio`") from e
 
-# Gradio UI
+
 with gr.Blocks() as demo:
-    gr.Markdown("## Vehicle Voice Assistant — Demo (Server-side ASR + Intent)")
+    gr.Markdown("## Server Side ASR with Intent Recognition")
     with gr.Row():
         with gr.Column(scale=1):
             audio_in = make_audio_component()
             submit = gr.Button("Transcribe & Predict")
-            sample_menu = gr.Dropdown(choices=[
-                "Take me to my office",
-                "Call Mom",
-                "Play next song",
-                "Stop music",
-                "What's the ETA to downtown"
-            ], label="Sample utterances")
+
+            
+            gr.Markdown("### Sample Utterances")
+            gr.Markdown("""
+            • Take me to my office  
+            • Call Mom  
+            • Play next song  
+            • Stop music  
+            • What's the ETA to downtown  
+            """)
+
         with gr.Column(scale=1):
             transcript_out = gr.Textbox(label="Transcript")
             intent_out = gr.Textbox(label="Predicted Intent")   # Textbox is more compatible
             slots_out = gr.JSON(label="Extracted Slots")
             tts_html_out = gr.HTML(value="", label="Play (browser TTS)")
 
-    def on_sample(sel):
-        return f"Try saying: {sel}"
-
-    sample_menu.change(fn=on_sample, inputs=sample_menu, outputs=transcript_out)
-
+    
     def handle_click(audio):
         return transcribe_and_intent(audio)
 
